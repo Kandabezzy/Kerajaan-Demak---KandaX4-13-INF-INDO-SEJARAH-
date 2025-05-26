@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Kesultanan Demak - Ensiklopedia Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fade-in {
+            0% { opacity: 0; transform: translateY(10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in { animation: fade-in 0.6s ease-out; }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen bg-gradient-to-br from-amber-50 via-emerald-50 to-blue-50">
+        <!-- Navbar -->
+        <nav class="bg-gradient-to-r from-emerald-800 to-blue-900 shadow-lg sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex items-center space-x-2">
+                        <svg class="h-8 w-8 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.5c-1.4 0-2.5 1.1-2.5 2.5S10.6 11.5 12 11.5s2.5-1.1 2.5-2.5S13.4 6.5 12 6.5zM12 2L13.09 8.26l4.71-1.46-1.46 4.71L22.61 12l-6.27 1.09 1.46 4.71-4.71-1.46L12 22l-1.09-6.26-4.71 1.46 1.46-4.71L1.39 12l6.27-1.09-1.46-4.71 4.71 1.46L12 2z"></path>
+                        </svg>
+                        <span class="text-xl font-bold text-white">Ensiklopedia Kerajaan Islam</span>
+                    </div>
+                    <div class="hidden md:flex space-x-8">
+                        <a href="index.html" class="text-white hover:text-amber-300 transition-colors duration-200">Beranda</a>
+                        <a href="sejarah.html" class="text-white hover:text-amber-300 transition-colors duration-200">Sejarah Demak</a>
+                        <a href="galeri.html" class="text-amber-300 font-semibold">Galeri</a>
+                        <a href="tentang.html" class="text-white hover:text-amber-300 transition-colors duration-200">Tentang</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header Section -->
+        <section class="py-20 px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-6xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent mb-6 animate-fade-in">
+                    Galeri Kesultanan Demak
+                </h1>
+                <p class="text-xl text-gray-700 mb-8 animate-fade-in">
+                    Koleksi Peninggalan Bersejarah dan Artefak Berharga
+                </p>
+            </div>
+        </section>
+
+        <!-- Gallery Grid -->
+        <section class="py-8 px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Image 1 -->
+                    <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="aspect-w-16 aspect-h-12 mb-4">
+                            <img src="https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Masjid Agung Demak" 
+                                 class="w-full h-48 object-cover rounded-lg">
+                        </div>
+                        <h3 class="text-xl font-bold text-emerald-700 mb-2">Masjid Agung Demak</h3>
+                        <p class="text-gray-600 text-sm">Masjid tertua di Jawa yang dibangun oleh Wali Songo dengan arsitektur khas tanpa kubah.</p>
+                    </div>
+
+                    <!-- Image 2 -->
+                    <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="aspect-w-16 aspect-h-12 mb-4">
+                            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Saka Tatal" 
+                                 class="w-full h-48 object-cover rounded-lg">
+                        </div>
+                        <h3 class="text-xl font-bold text-emerald-700 mb-2">Saka Tatal</h3>
+                        <p class="text-gray-600 text-sm">Tiang kayu utama Masjid Agung Demak yang terbuat dari potongan-potongan kayu oleh Sunan Kalijaga.</p>
+                    </div>
+
+                    <!-- Image 3 -->
+                    <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="aspect-w-16 aspect-h-12 mb-4">
+                            <img src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Makam Sultan Demak" 
+                                 class="w-full h-48 object-cover rounded-lg">
+                        </div>
+                        <h3 class="text-xl font-bold text-emerald-700 mb-2">Makam Para Sultan</h3>
+                        <p class="text-gray-600 text-sm">Kompleks makam para Sultan Demak yang menjadi tempat ziarah dan pembelajaran sejarah.</p>
+                    </div>
+
+                    <!-- Image 4 -->
+                    <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="aspect-w-16 aspect-h-12 mb-4">
+                            <img src="data:image/jpeg;base64,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" 
+                                 alt="Keris Pusaka" 
+                                 class="w-full h-48 object-cover rounded-lg">
+                        </div>
+                        <h3 class="text-xl font-bold text-emerald-700 mb-2">Keris Pusaka</h3>
+                        <p class="text-gray-600 text-sm">Koleksi keris pusaka peninggalan para Sultan Demak dengan ukiran dan motif khas.</p>
+                    </div>
+
+                    <!-- Image 5 -->
+                    <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="aspect-w-16 aspect-h-12 mb-4">
+                            <img src="https://www.dailysports.id/upload/large/d94fd431b646707d263a5254f6f21f88.jpg" 
+                                 alt="Kaligrafi Kuno" 
+                                 class="w-full h-48 object-cover rounded-lg">
+                        </div>
+                        <h3 class="text-xl font-bold text-emerald-700 mb-2">Kaligrafi Kuno</h3>
+                        <p class="text-gray-600 text-sm">Kaligrafi Arab kuno yang menghiasi Masjid Agung Demak dengan gaya khas masa Kesultanan.</p>
+                    </div>
+
+                    <!-- Image 6 -->
+                    <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="aspect-w-16 aspect-h-12 mb-4">
+                            <img src="https://images.unsplash.com/photo-1528702748617-c64d49f918af?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Museum Demak" 
+                                 class="w-full h-48 object-cover rounded-lg">
+                        </div>
+                        <h3 class="text-xl font-bold text-emerald-700 mb-2">Museum Demak</h3>
+                        <p class="text-gray-600 text-sm">Museum yang menyimpan berbagai artefak dan benda bersejarah Kesultanan Demak.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Info Section -->
+        <section class="py-16 px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl">
+                    <h2 class="text-2xl font-bold text-emerald-700 mb-4 text-center">Tentang Koleksi Galeri</h2>
+                    <p class="text-gray-700 leading-relaxed text-center mb-6">
+                        Galeri ini menampilkan berbagai peninggalan bersejarah Kesultanan Demak yang masih dapat kita saksikan hingga hari ini. 
+                        Setiap artefak memiliki cerita dan nilai historis yang tinggi dalam perjalanan Islam di Nusantara.
+                    </p>
+                    <div class="grid md:grid-cols-3 gap-6 text-center">
+                        <div>
+                            <div class="text-3xl font-bold text-emerald-600">6+</div>
+                            <div class="text-gray-600">Artefak Utama</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-emerald-600">500+</div>
+                            <div class="text-gray-600">Tahun Sejarah</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-emerald-600">9</div>
+                            <div class="text-gray-600">Wali Songo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation -->
+        <section class="py-8 px-4">
+            <div class="max-w-4xl mx-auto flex justify-between">
+                <a href="sejarah.html" class="bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors">
+                    ← Baca Sejarah
+                </a>
+                <a href="tentang.html" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                    Tentang Pembuat →
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-white py-12 px-4">
+            <div class="max-w-7xl mx-auto text-center">
+                <div class="flex justify-center items-center space-x-2 mb-4">
+                    <svg class="h-6 w-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.5c-1.4 0-2.5 1.1-2.5 2.5S10.6 11.5 12 11.5s2.5-1.1 2.5-2.5S13.4 6.5 12 6.5zM12 2L13.09 8.26l4.71-1.46-1.46 4.71L22.61 12l-6.27 1.09 1.46 4.71-4.71-1.46L12 22l-1.09-6.26-4.71 1.46 1.46-4.71L1.39 12l6.27-1.09-1.46-4.71 4.71 1.46L12 2z"></path>
+                    </svg>
+                    <span class="text-xl font-bold">Ensiklopedia Kerajaan Islam Indonesia</span>
+                </div>
+                <p class="text-gray-400 mb-4">
+                    Tugas Kolaborasi 3 Mata Pelajaran: Indonesia, Informatika, dan Sejarah
+                </p>
+                <p class="text-gray-400">
+                    © 2024 Kanda - Kelas X-4 - SMA Talenta
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
